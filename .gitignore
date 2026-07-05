@@ -1,0 +1,31 @@
+﻿# Credentials
+.env
+*.env
+
+# Données générées (trop lourdes / sensibles)
+data/
+logs/
+snapshots/
+
+# Documents personnels
+Alpaca/
+
+# Visualisations générées
+img/
+
+# Modèles entraînés
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
